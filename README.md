@@ -21,7 +21,7 @@
 
 <h1 align="center"> NtH1M - Super Fast Sub-domain Takeover Detection </h1>
 <p align="center">
-    <a href="https://github.com/c4p-n1ck/NtH1M/releases/tag/label" target="_blank"><img src="https://img.shields.io/badge/latest-0.2.4-blue?style=for-the-badge&label=Latest+Release" height="36" /></a>
+    <a href="https://github.com/c4p-n1ck/NtH1M/releases/tag/latest" target="_blank"><img src="https://img.shields.io/badge/latest-0.2.4-blue?style=for-the-badge&label=Latest+Release" height="36" /></a>
     &nbsp;&nbsp;
     <a href="https://www.rust-lang.org/" target="_blank"><img src="https://forthebadge.com/images/badges/made-with-rust.svg" height="36" /></a>
     &nbsp;&nbsp;
