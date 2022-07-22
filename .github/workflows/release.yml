@@ -112,7 +112,7 @@ jobs:
 
       - name: Install the requirements!
         run: |
-          sudo apt update && sudo apt install -y mingw-w64 pkg-config libssl-dev openssl
+          sudo apt update && sudo apt install -y mingw-w64 pkg-config libssl-dev openssl perl
 
       - name: Install Cross!
         run: cargo install cross
