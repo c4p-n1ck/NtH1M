@@ -82,14 +82,15 @@ The installation walkthrough for **NtH1M** has been uploaded to YouTube, coverin
 | Flag | Description                           | Example                              |
 | ---- | ------------------------------------- | ------------------------------------ |
 | -h   | Display help related to usage!        | NtH1M -h                             |
-| -t   | Scan a single target!                 | NtH1M -t https://example.example.com |
-| -f   | Scan a list of targets from a file!   | NtH1M -f hostnames.txt               |
-| -c   | Number of Concurrent Threads!         | NtH1M -c 100 -f hostnames.txt        |
-| -s   | Timeout for connections (in seconds)! | NtH1M -s 4 -f hostnames.txt          |
-| -v   | Enable Verbose Mode!                  | NtH1M -v -f hostnames.txt            |
-| -o   | Write output to file!                 | NtH1M -f hostnames.txt -o output.txt |
-| -u   | Update signature cache!               | NtH1M -u                             |
-| -V   | Display the version information!      | NtH1M -V                             |
+| -t   | Scan a single target.                 | NtH1M -t https://example.example.com |
+| -f   | Scan a list of targets from a file.   | NtH1M -f hostnames.txt               |
+| -c   | Number of Concurrent Threads.         | NtH1M -c 100 -f hostnames.txt        |
+| -s   | Timeout for connections (in seconds)  | NtH1M -s 4 -f hostnames.txt          |
+| -v   | Enable Verbose Mode.                  | NtH1M -v -f hostnames.txt            |
+| -o   | Write output to file.                 | NtH1M -f hostnames.txt -o output.txt |
+| -p   | Path to custom signatures.json file.  | NtH1M -p signatures.json -f host.txt |
+| -u   | Update signature cache.               | NtH1M -u                             |
+| -V   | Display the version information.      | NtH1M -V                             |
 
 *By default, **NtH1M** uses **`10`** **concurrent threads**, and **`5`** seconds of **timeout for connections**.*
 
@@ -109,9 +110,9 @@ NtH1M -f hostnames.txt
 
 ***
 
-### Usage Demonstration:
+### Usage Demonstration (without -p flag):
 
-![NtH1M Usage Demonstration](images/demonstration.gif)
+![NtH1M Usage Demonstration (without -p flag)](images/demonstration.gif)
 
 ***
 
