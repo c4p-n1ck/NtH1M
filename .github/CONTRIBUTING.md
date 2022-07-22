@@ -1,8 +1,8 @@
-# Contributing to NtHiM
+# Contributing to NtH1M
 
-We welcome Pull Requeusts from **NtHiM** users, developers and anyone who is interested to help in upgrading the status of the project. This guide will include the guidelines you will need to follow while contributing.
+We welcome Pull Requeusts from **NtH1M** users, developers and anyone who is interested to help in upgrading the status of the project. This guide will include the guidelines you will need to follow while contributing.
 
-When contributing to **NtHiM**, please first make sure to discuss the change you wish for by opening up a new issue, sending an e-mail, or any other method of communication with the existing authors of this repository before making a change.
+When contributing to **NtH1M**, please first make sure to discuss the change you wish for by opening up a new issue, sending an e-mail, or any other method of communication with the existing authors of this repository before making a change.
 
 Also, please note that we have a [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md), so please follow it during all of your interactions with this repository or the project as a whole.
 
@@ -18,7 +18,7 @@ Also, please note that we have a [Contributor Covenant Code of Conduct](CODE_OF_
 
 ## Versioning
 
-We follow our own unique versioning schema for **NtHiM**.
+We follow our own unique versioning schema for **NtH1M**.
 
 1. **MAJOR** Release (_M_): `0.M.0` (_`v0.M.0`_)
 2. **MINOR** Release (_m_): `0.M.m` (_`v0.M.m`_)

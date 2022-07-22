@@ -3,7 +3,7 @@ name: Bug Report
 about: Create a report to help us improve!
 title: "[Bug]"
 labels: bug
-assignees: TheBinitGhimire
+assignees: c4p-n1ck
 
 ---
 
