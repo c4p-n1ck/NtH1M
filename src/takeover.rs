@@ -9,7 +9,7 @@ use tokio;
 fn preParser(url: &Url) -> Uri {
     match url.as_str().parse() {
         Ok(u) => u,
-        Err(_) => Url::parse("https://NtHiM.InvalidURL/")
+        Err(_) => Url::parse("https://NtH1M.InvalidURL/")
             .unwrap()
             .as_str()
             .parse()
@@ -34,7 +34,7 @@ pub async fn _takeover(hosts: Vec<String>, threads: usize) -> std::io::Result<()
         match client
             .get(
                 preParser(
-                    &Url::parse(&url).unwrap_or(Url::parse("https://NtHiM.InvalidURL/").unwrap()),
+                    &Url::parse(&url).unwrap_or(Url::parse("https://NtH1M.InvalidURL/").unwrap()),
                 )
                 .to_string(),
             )

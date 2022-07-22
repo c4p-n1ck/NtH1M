@@ -90,7 +90,7 @@ pub fn _get_signatures_from_repo() -> Result<String, Box<dyn Error>> {
 }
 
 pub fn _cache_signatures(signatures: String) {
-    let app_dirs = AppDirs::new(Some("NtHiM"), true).unwrap();
+    let app_dirs = AppDirs::new(Some("NtH1M"), true).unwrap();
     let cache_file_path = app_dirs.cache_dir.join("signatures.json");
     fs::create_dir_all(&app_dirs.cache_dir).unwrap();
     fs::write(cache_file_path, signatures).expect("Unable to cache signatures!");
@@ -106,7 +106,7 @@ pub fn _get_signatures() -> String {
                 .read_to_string(&mut signatures)
                 .expect("Unable to read the signatures file!");
         } else {
-            let app_dirs = AppDirs::new(Some("NtHiM"), true).unwrap();
+            let app_dirs = AppDirs::new(Some("NtH1M"), true).unwrap();
             let cache_path = app_dirs.cache_dir.join("signatures.json");
             let mut cache_file = File::open(cache_path).expect("Unable to open cache file!");
             cache_file

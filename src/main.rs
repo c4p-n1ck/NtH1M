@@ -16,7 +16,7 @@ use std::{path::Path, process::exit, string::String};
 static mut PLATFORMS_PATH: String = String::new();
 
 fn main() -> std::io::Result<()> {
-    let app_dirs = AppDirs::new(Some("NtHiM"), true).unwrap();
+    let app_dirs = AppDirs::new(Some("NtH1M"), true).unwrap();
     let cache_file_path = app_dirs.cache_dir.join("signatures.json");
 
     let args = _parse_args();
