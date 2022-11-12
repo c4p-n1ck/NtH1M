@@ -31,7 +31,7 @@
 
 # Notice
 
-> This is a sad notice that our Internet Hero (@TheBinitGhimire) had recent demise on 26th of June, 2022. Since has has passed away, and I was the one who implemented online repo system in collaboration with [Penterter-Nepal](https://github.com/Pentester-Nepal) using [this](https://git.io/signatures_json) as repo and there was an issue for using local/custom `signatures.json` file and not from the repo. Hence, I've implemented it with a major release version (everying is almost same except for naming since we need to make releases) and few misc changes.
+> This is a sad notice that our Internet Hero (@TheBinitGhimire) had recent demise on 26th of June, 2022. Since has has passed away, and I was the one who implemented online repo system in collaboration with [Pentester-Nepal](https://github.com/Pentester-Nepal) using [this](https://git.io/signatures_json) as repo and there was an issue for using local/custom `signatures.json` file and not from the repo. Hence, I've implemented it with a major release version (everying is almost same except for naming since we need to make releases) and few misc changes.
 
 
 ***
